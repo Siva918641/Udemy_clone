@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy_clone</title>
+    <link rel="stylesheet" href="style.css">  <!--Style.css from the folder-->
+    <!---Google fonts Gabrito font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap" rel="stylesheet">
+<!---Font awesome CDN icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Creating a navigation bar-->
+    <div class="navbar">   <!---Parent navbar so changes applied for all sections in navbar-->
+        <div class="navbar__section1">
+            <h1 class="navbar__section1__title">Udemy</h1>
+        </div>
+
+        <div class="navbar__section2"> <!---Search box-->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="search for anything here Business, art, Tech,....">
+        </div>
+
+        <div class="navbar__section3"> <!---Menu and icons-->
+            <p>Courses</p>
+            <p>My Learning</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+
+    <!--Categories-->
+    <div class="categories">
+        <p>Personal Development</p>
+        <p>IT and Software</p>
+        <p>Marketing and sales</p>
+        <p>Design</p>
+        <p>Development</p>
+        <p>Business</p>
+    </div>
+
+    <!--Sale image-->
+    <div class="sale-image">
+        <img src="/images/sale_image1.webp" alt="sale_image1">
+    </div>
+
+<!--Recomended section-->
+<div class="recomended">
+    <h1 class="recomended__title">Recommended For You</h1>
+    <p>Pick the best fit for You</p>
+    <div class="recomended__container">
+    <div class="course-card">
+        <img src="/images/python_image.jpg" alt="python_image">
+        <p>The Complete Python Bootcamp</p>
+        <p>Angela Yung</p>
+        <p>⭐4.7</p>
+        <p>519 <del>1299</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/Self_development image.jpg" alt="Self_development">
+        <p>The Complete Personal Developement</p>
+        <p>James Wheeler</p>
+        <p>⭐4.8</p>
+        <p>599 <del>1599</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/marketing_image.jpg" alt="marketing_image">
+        <p>The End to End Digital Marketing Strategy</p>
+        <p>Sivasankaran G</p>
+        <p>⭐4.8</p>
+        <p>549  <del>1799</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/Development_image.jpg" alt="Development_image">
+        <p>The Complete salesforce Development</p>
+        <p>Antony Clito</p>
+        <p>⭐4.9</p>
+        <p>579 <del>1499</del></p>
+        </div>
+    </div>
+</div>
+
+<!--Topics-->
+<div class="topics">
+    <h1 class="topics__title">Topics Recommended for You</h1>
+    <div class="topics__container">
+        <p>Javascript</p>
+        <p>Python</p>
+        <p>Cybersecurity</p>
+        <p>Docker</p>
+        <p>Flutter</p>
+        <p>Github</p>
+        <p>React JS</p>
+        <p>Tailwind CSS</p>
+        <p>Cloud Computing</p>
+    </div>
+</div>
+
+<!--Most Popular section-->
+<div class="popular">
+    <h1 class="popular__title">Most Popular</h1>
+    <p class="popular__subtitle">Pick the Best Fit</p>
+    <div class="popular__container">
+        <div class="course-card">
+        <img src="/images/python_image.jpg" alt="python_image">
+        <p>The Complete Python Bootcamp</p>
+        <p>Angela Yung</p>
+        <p>⭐4.7</p>
+        <p>519 <del>1299</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/Self_development image.jpg" alt="Self_development">
+        <p>The Complete Personal Developement</p>
+        <p>James Wheeler</p>
+        <p>⭐4.8</p>
+        <p>599 <del>1599</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/marketing_image.jpg" alt="marketing_image">
+        <p>The End to End Digital Marketing</p>
+        <p>Sivasankaran G</p>
+        <p>⭐4.8</p>
+        <p>549  <del>1799</del></p>
+    </div>
+
+    <div class="course-card">
+        <img src="/images/Development_image.jpg" alt="Development_image">
+        <p>The Complete salesforce Development</p>
+        <p>Antony Clito</p>
+        <p>⭐4.9</p>
+        <p>579 <del>1499</del></p>
+        </div>
+
+        <div class="course-card">
+        <img src="/images/sales_image.jpg" alt="sales_image">
+        <p>Master sales: Practical Sales strategy</p>
+        <p>Alfred Marshal</p>
+        <p>⭐4.9</p>
+        <p>599 <del>1199</del></p>
+        </div>
+
+        <div class="course-card">
+        <img src="/images/stage_speaking_image.jpg" alt="stage_speaking_image">
+        <p>Public and Professional stage speaking</p>
+        <p>Arthur Wellinton</p>
+        <p>⭐4.9</p>
+        <p>999 <del>1899</del></p>
+        </div>
+
+        <div class="course-card">
+        <img src="/images/psychology_image.jpg" alt="psychology_image">
+        <p>Understanding Human Behavior</p>
+        <p>Arthur James</p>
+        <p>⭐4.1</p>
+        <p>799 <del>1799</del></p>
+        </div>
+
+        <div class="course-card">
+        <img src="/images/business_law_image.jpg" alt="business_law_image">
+        <p>Basics of Corporate Laws</p>
+        <p>Arthur Wellinton</p>
+        <p>⭐4.9</p>
+        <p>999 <del>1899</del></p>
+        </div>
+    </div>
+</div>
+
+<!--Footer section-->
+<div class="footer">
+    <div class="footer__one">
+        <div class="footer__one__section1">
+            <p>Udemy Business</p>
+            <p>Teach On Udemy</p>
+            <p>Get the App</p>
+            <p>About US</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="footer__one__section2">
+            <p>Career</p>
+            <p>Blog</p>
+            <p>Help and Support</p>
+            <p>Affliate</p>
+            <p>Investors</p>
+        </div>
+    </div>
+
+    <div class="footer__two">
+            <h1>Udemy</h1>
+            <p>&copy Udemy, Inc</p>
+        </div>
+
+    </div>
+</body>
+</html>
